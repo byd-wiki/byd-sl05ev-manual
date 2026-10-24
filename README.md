@@ -1,8 +1,8 @@
 # BYD SeaLion 05EV Service Manual
 
-This resource provides reference materials and research from enthusiasts of the BYD Apps & OTA Telegram channel, primarily for BYD electric vehicles and hybrids produced for the Chinese market
+Some parts of BYD SeaLion 05EV Service Manual translated from Chinese.
 
-Read: https://byd-wiki.github.io
+Read: https://byd-wiki.github.io/byd-sl05ev-manual/
 
 
 ## Local Development
