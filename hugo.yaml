@@ -1,0 +1,49 @@
+title: Service Manual
+module:
+  imports:
+    - path: github.com/imfing/hextra
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+defaultContentLanguage: ru
+
+menu:
+  main:
+    - name: Search
+      weight: 5
+      params:
+        type: search
+        icon: search
+    - name: GitHub
+      weight: 10
+      url: "https://github.com/byd-wiki/byd-sl05ev-manual"
+      params:
+        icon: github
+
+params:
+  theme:
+    default: dark
+    displayToggle: true
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/byd-wiki/byd-sl05ev-manual/edit/main/content"
+
+  externalLinkDecoration: true
+  imageZoom:
+    enable: true
